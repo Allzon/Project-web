@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.sideImag {
+  width: 50%;
+}
+.sideImag img {
+  width: 540px;
+}
+
+.containForm {
+  width: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}

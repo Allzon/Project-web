@@ -1,0 +1,18 @@
+.Bar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 40px;
+}
+
+.button {
+  width: 100px;
+  background-color: #ffff;
+  color: #ff0000;
+  padding: 14px 0px;
+  margin: 8px 0;
+  border: solid 2px #ff0000;
+  border-radius: 10px;
+  cursor: pointer;
+}

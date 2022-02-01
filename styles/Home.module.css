@@ -1,0 +1,43 @@
+.container {
+  width: 100%;
+  max-height: min-content;
+  position: relative;
+  margin: 0 10px;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.main_content {
+  max-width: 400px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.main_content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #545454;
+}
+.main_content img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.side_content {
+  width: 60%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
